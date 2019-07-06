@@ -1,0 +1,22 @@
+* {
+    color: red;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    font-size: 50px;
+    box-sizing: border-box;
+}
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 60px 10px;
+    margin: 10px;
+    width: 140px;
+    height: 200px;
+}
